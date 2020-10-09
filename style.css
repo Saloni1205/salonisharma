@@ -1,0 +1,200 @@
+title {
+   float: left;
+}
+body{
+    margin:0px auto;
+    width: 100%;
+    
+}
+nav ul li {
+    font-family: 'PT Serif', serif;
+    list-style-type:none;
+    float: left;
+    padding-right: 2.5em;
+    color:#212121;
+}
+nav ul{
+    float: right;   
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color:#edc988;
+    position: fixed;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+section{
+    background-color: #efbbcf;
+        
+font-family: 'PT Serif', serif;
+}
+.home
+{
+    background-color:#ffe2e2;
+    text-align: center;
+    font-size:50px;
+    color:#821752;
+    display: table;
+    height: 100vh;
+    width: 100%;
+}
+.inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+.home .inner img{
+    border-radius: 100%;
+    width:250px;
+    height: auto;
+    
+}
+.about
+{
+    background-image: url('https://static.statusqueen.in/desktopwallpaper/thumbnail/ROG-Pugio-Hd_4k_desktop_wallpaper_photos4-558.jpg');
+    display: table;
+    height: 100vh;
+    width:100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.about .inner
+{
+    display: table-cell;
+    vertical-align: middle;
+  width: 95%;
+    float: left;
+    padding-top: 75px;
+    padding-left: 50px;
+}
+.about .inner h1{
+    font-size: 48px;
+    color: #cf7500;
+    font-weight:100;
+    padding-top: 50px;
+}
+.about .inner p{
+    font-size: 27px;
+  color: #cf7500;
+    line-height: 50px;
+}
+.education
+{   
+    background-color: beige;
+     display: table;
+    height: 100vh;
+    width:100%;
+
+    background-size:cover;
+   
+    
+}
+.education .inner
+{
+    padding: 50px;
+    font-size: 20px;
+}
+.education .inner div{
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+.education .inner img{
+    width: 100px;
+    height: auto;
+}
+.education h1{
+    
+    font-size: 45px;
+}
+.skills {
+    background-color: #fe7171;
+     display: table;
+    height: 100vh;
+    width:100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.skills .inner{
+     display:auto;
+    vertical-align: middle;
+    width: 50%;
+    float: left;
+    padding-left: 50px;
+    font-size: 20px;
+}
+.skills h1{
+    font-size: 45px;
+}
+.skills .inner img{
+    padding-top: 10vh;
+    height: 30vh;
+    width: auto;
+}
+.hobbies{
+    background-color: #335d2d;
+     display: table;
+    height: 100vh;
+    width:100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+.hobbies .inner{
+    color: #f4f4f4;
+     display:auto;
+    vertical-align: middle;
+    width: 50%;
+    float: left;
+    padding-left: 50px;
+    font-size: 20px;
+    
+}
+.hobbies h1 {
+    color: #f4f4f4;
+    font-size: 45px;
+}
+.contact{
+    height: 100vh;
+}
+.contact .inner{
+    text-align: center;
+     display:auto;
+   width: 10%;
+    font-size: 20px;
+}
+.contact h1
+{
+    padding-top: 40vh;   
+    text-align: center;
+    font-size: 35px;
+}
+/*responsive designing*/
+@media (min-width:320px) and (max-width:767px)
+{
+      
+    .about .inner p{
+        text-align: justify;
+        font-size: 25px;
+        width: 100%;
+    }
+    .about .inner{
+        width: 80%;
+        padding: 25px;
+    }
+    .education .inner div{
+        width: 90%;
+        
+    }
+    
+}
+@media (min-width:768px) and (max-width:1023px)
+{
+ .education .inner div
+    {width: 100%;
+    }
+}
